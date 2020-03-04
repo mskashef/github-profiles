@@ -1,0 +1,41 @@
+@import "../../config/sassFunctions/functions";
+
+.searchInputContainer {
+    display: flex;
+    @include flexDirection(row);
+    width: 290px;
+    height: 50px;
+    @include borderRadius(8px);
+}
+.searchInputTitleContainer {
+    padding: 15px 0;
+}
+.searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 20px;
+    font-size: 14px;
+}
+.searchButton {
+    height: 50px;
+    width: 50px;
+    @include borderRadius(8px);
+    border: none;
+    cursor: pointer;
+}
+@keyframes spin {
+    from { @include transform(rotateZ(0deg)); }
+    to { @include transform(rotateZ(360deg)); }
+}
+.spinning {
+    animation-name: spin;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+.searchInputErrorTextContainer {
+    padding: 10px;
+}

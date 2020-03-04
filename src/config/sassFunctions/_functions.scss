@@ -1,0 +1,33 @@
+@mixin flexDirection($val) {
+  flex-direction: $val;
+  -ms-flex-direction: $val;
+  -webkit-flex-direction: $val;
+}
+@mixin rect($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin borderRadius($r) {
+  -webkit-border-radius: $r;
+  -moz-border-radius: $r;
+  border-radius: $r;
+}
+@mixin boxSizing($val) {
+  -webkit-box-sizing: $val;
+  -moz-box-sizing: $val;
+  box-sizing: $val;
+}
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}

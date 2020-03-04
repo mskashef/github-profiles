@@ -1,0 +1,7 @@
+@import "config/sassFunctions/functions";
+.App {
+  @include boxSizing(border-box);
+  @include rect(100%, 100%);
+  overflow-x: hidden;
+  overflow-y: auto;
+}

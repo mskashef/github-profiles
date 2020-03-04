@@ -1,0 +1,16 @@
+@import "../../config/sassFunctions/functions";
+.UserInfo {
+    display: inline-block;
+    width: 240px;
+}
+.userProfPicContainer {
+    width: 240px;
+    height: 240px;
+    @include borderRadius(8px);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.userProfPic {
+    width: 100%;
+    height: 100%;
+}

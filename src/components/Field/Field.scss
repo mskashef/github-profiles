@@ -1,0 +1,9 @@
+@import "../../config/sassFunctions/functions";
+
+.emptyField {
+    @include borderRadius(4px);
+    margin-top: 15px;
+}
+.userInfoField {
+    margin-top: 15px;
+}

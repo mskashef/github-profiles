@@ -1,0 +1,30 @@
+@import "../../config/sassFunctions/functions";
+
+.repo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include rect(400px, 120px);
+    @include borderRadius(8px);
+    padding: 15px;
+    font-size: 14px;
+    margin: 0 0 10px 10px;
+}
+.repoFirstRowContainer {
+    display: flex;
+    flex-direction: row;
+}
+.repoNameContainer {
+    flex: 1;
+}
+.repoIconAndValueContainer {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+}
+.repoIconAndValueContainer {
+    img {
+        margin-right: 5px;
+    }
+}

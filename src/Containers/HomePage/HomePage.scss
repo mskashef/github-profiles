@@ -1,0 +1,28 @@
+@import "../../config/sassFunctions/functions";
+
+.HomePage {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.topRow {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+.WebPageTitle {
+    font-weight: bold;
+    flex: 1;
+}
+.homePageDescriptionContainer {
+    margin: 20px 0;
+}
+.userInfoContainer {
+    display: flex;
+    margin-top: 30px;
+}
+.ReposContainer {
+    padding-left: 20px;
+}

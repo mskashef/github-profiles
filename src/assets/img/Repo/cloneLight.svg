@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0 -0.28)">
+    <g id="copy">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="18" height="18" transform="translate(0 0.28)" fill="#a8a8a8" opacity="0"/>
+      <path id="Path_13" data-name="Path 13" d="M14.425,7.57H12.14V5.034A2.041,2.041,0,0,0,10.106,3H5.034A2.041,2.041,0,0,0,3,5.034v5.073A2.041,2.041,0,0,0,5.034,12.14H7.57v2.285A2.285,2.285,0,0,0,9.855,16.71h4.57a2.285,2.285,0,0,0,2.285-2.285V9.855A2.285,2.285,0,0,0,14.425,7.57ZM7.57,9.855v.762H5.034a.51.51,0,0,1-.51-.51V5.034a.51.51,0,0,1,.51-.51h5.073a.51.51,0,0,1,.51.51V7.57H9.855A2.285,2.285,0,0,0,7.57,9.855Z" transform="translate(-0.715 -0.715)" fill="#a8a8a8"/>
+    </g>
+  </g>
+</svg>
