@@ -60,9 +60,6 @@ class Repo extends Component {
             </div>
         );
     }
-
-    componentDidMount() {
-    }
 }
 
 const mapStateToProps = state => {
