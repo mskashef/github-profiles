@@ -1,4 +1,5 @@
 export const lightTheme = {
+    dark: false,
     mainColor: '#FFFFFF',
     mainOppositeColor: '#212121',
     mainLight: '#FAFAFA',
@@ -9,10 +10,10 @@ export const lightTheme = {
     repoTitleColor: '#007FFF',
     repoForkedFromTEXTColor: '#A8A8A8',
     repoForkedFromColor: '#007FFF',
-    dark: false,
     userInfoWebsiteColor: '#007FFF'
 };
 export const darkTheme = {
+    dark: true,
     mainColor: '#212121',
     mainOppositeColor: '#FFFFFF',
     mainLight: '#292929',
@@ -23,6 +24,5 @@ export const darkTheme = {
     repoTitleColor: '#00A7FF',
     repoForkedFromTEXTColor: '#656565',
     repoForkedFromColor: '#00A7FF',
-    dark: true,
     userInfoWebsiteColor: '#00A7FF'
 };
